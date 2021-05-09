@@ -1,0 +1,1 @@
+json.extract! @binary_operation,  :operation_id, :first_operand, :second_operand, :result, :count

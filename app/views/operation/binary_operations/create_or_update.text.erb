@@ -1,0 +1,11 @@
+<% if @binary_operation.errors.any? %>
+  <%= pluralize(@binary_operation.errors.count, "error") %> prohibited this operation from being calculated.
+  <% @binary_operation.errors.each do |error| %>
+    <%= error.full_message %>
+  <% end %>
+<% else %>
+  Operation: <%= "#{@binary_operation[:first_operand]} #{Operation::BinaryOperationsHelper.supported_operations[@binary_operation[:operation_id].to_sym][:symbol]} #{@binary_operation[:second_operand]}" %>
+  Result: <%= @binary_operation[:result] %>
+  ID: <%= @binary_operation[:_id] %>
+  Count: <%= @binary_operation[:count] %>
+<% end %>
