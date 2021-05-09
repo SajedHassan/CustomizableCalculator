@@ -1,0 +1,5 @@
+<%= react_component 'calculators/AbstractCalculator',
+                    { operationConfig: @operation_config,
+                      processingUrl: operation_binary_operations_create_or_update_path,
+                      formAuthenticityToken: form_authenticity_token },
+                    {:class => "full_page container"} %>
