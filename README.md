@@ -1,10 +1,4 @@
-# README
-<<<<<<< HEAD
-<<<<<<< Updated upstream
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-=======
 # Customizable calculator
 ### by: Sajed Almorsy -  sajed.almorsy@gmail.com
 It is a customizable calculator application, currently, only the binary operations are supported with the following operations: (Addition, Subtraction, Multiplication, Division)
@@ -12,14 +6,6 @@ It is a customizable calculator application, currently, only the binary operatio
 The operations results are cached for faster future access. 
 
 The view is rendered dynamically using  configuration data that is sent by the server.
->>>>>>> Stashed changes
-=======
-# OnePageCrm - RUBY ON RAILS CODING TEST
-### by: Sajed Almorsy -  sajed.almorsy@gmail.com
-It is a customizable calculator application, currently, only the binary operations are supported with the following operations: (Addition, Subtraction, Multiplication, Division)
-
-The view is rendered dynamically using  configuration data that is sent by the server.
->>>>>>> be0e050... Add README.md file.
 
 Appending a new binary operation will require only adding the operation meta data to the array of supported binary operations at `Operation::BinaryOperation` and that's it, you
 won't even need to update the view as it's rendered dynamically.
